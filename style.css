@@ -1,0 +1,37 @@
+:root {
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 2rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: x-small;
+}
+main {
+    display: grid;
+    place-items: center;
+    font-size: var(--md);
+}
+main section {
+    height: 30rem;
+    width: 45rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(11, 119, 131);
+    align-items: center;
+    margin-top: 10rem;
+}
+main section h1,
+main section label,
+main section p {
+    color: whitesmoke;
+}
+
+main section button {
+    width: 15rem;
+}
