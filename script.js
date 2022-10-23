@@ -18,7 +18,7 @@ function btnAction() {
         let endeudamiento = (+ingresos - +gastos)*0.35;
         resultado.innerText =`Su capacidad de endeudamiento es de \$${endeudamiento}`;
     }else{
-        resultado.innerText = 'Asegurate de ingresar solo números.'
+        resultado.innerText = 'Asegurate de ingresar solo números positivos.'
     }
 }
 
