@@ -24,5 +24,6 @@ function btnAction() {
 
 function validatingData(...theArg) {
     let areAllNumbers = theArg.every(item => +item * 0 === 0 );
-    return areAllNumbers;    
+    let areAllPositive = theArg.every(item => +item >= 0 );
+    return areAllNumbers && areAllPositive;    
 }
